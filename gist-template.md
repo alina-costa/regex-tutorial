@@ -1,10 +1,10 @@
-# Title (replace with your title)
-
-Introductory paragraph (replace this with your text)
+# Regex - Matching a Hex Value
+  Regex, short for regular expression, is a sequence of characters that defines a specific search pattern. 
+  Hex values are a type of HTML color code. The first two letters/numbers refer to red, the next two refer to green, 
+  and the last two refer to blue. 
 
 ## Summary
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 
 ## Table of Contents
 
@@ -23,27 +23,19 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
-
+- `^` signifies a string that begins with the characters following it.
+- `$` signifies a string that ends with the characters that precede it.
 ### Quantifiers
-
 ### OR Operator
-
 ### Character Classes
-
 ### Flags
-
 ### Grouping and Capturing
-
-### Bracket Expressions
-
+### Braket Expressions
 ### Greedy and Lazy Match
-
 ### Boundaries
-
 ### Back-references
-
 ### Look-ahead and Look-behind
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Alina Costa is a web development student, currently finishing up receiving her certificate from 
+the University of Central Florida. You can view her other projects on her Github [here](https://github.com/alina-costa).
